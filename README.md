@@ -22,7 +22,7 @@ The following directory structure is modelled after my own method for organizing
 |   +-- output
 +-- src
 |   +-- data
-|   +-- features
+|   +-- processing
 |   +-- models
 |   +-- metrics
 |   +-- utils
