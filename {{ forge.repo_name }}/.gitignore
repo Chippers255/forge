@@ -1,0 +1,22 @@
+# JetBrains Crap
+.idea
+
+# VS Code Crap
+.vscode/
+
+# Mac Crap
+.DS_Store
+
+# Jupyter Checkpoints
+.ipynb_checkpoints/
+
+# Exclude data files
+/data/
+*.csv
+*.parquet
+
+# DotEnv Files
+.env
+
+# Logs
+*.log
