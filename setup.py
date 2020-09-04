@@ -8,7 +8,7 @@ with open('README.md', encoding='utf-8') as readme_file:
     readme = readme_file.read()
 
 requirements = [
-    'jinja2=2.11.2'
+    "Jinja2<3.0.0",
 ]
 
 setup(
@@ -20,8 +20,8 @@ setup(
     long_description=readme,
     long_description_content_type='text/markdown',
     author='Tom Nelson',
-    author_email='chippers255',
-    url='https://github.com/Chippers255/forge/tree/master',
+    author_email='tn90ca@gmail.com',
+    url='https://github.com/Chippers255/forge',
     packages=['forge'],
     package_dir={'forge': 'forge'},
     entry_points={'console_scripts': ['forge = forge.__main__:main']},

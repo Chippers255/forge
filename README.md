@@ -2,13 +2,11 @@
 A command-line tool to create prebuilt data science repositories from a template.
 
 ## Usage
-------------
 ``` bash
 forge config.json
 ```
 
 ## Directory Structure
-------------
 The following directory structure is modelled after my own method for organizing data science projects.
 
 ```
